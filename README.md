@@ -18,7 +18,7 @@ Each task sits in its own folder and has its own README with more detail.
 ├── calculator/        myCalculator, Python Tkinter desktop app
 │   ├── myCalculator.py
 │   └── README.md
-└── login/             PHP login authentication app (hosted online)
+└── web app/             PHP login authentication app (hosted online)
     ├── index.html
     ├── style.css
     ├── script.js
@@ -56,7 +56,7 @@ A login screen with username and password fields, a login button and a reset but
 
 The app is live and hosted here:
 
-**https://johnson.is-best.net**
+**https://ola.totalh.net/**
 
 Open that link in any browser. You will land on the sign in page. Use the demo account below to log in, which takes you to the protected dashboard:
 

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSC426 Portal | Sign In</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="split">
+
+    <aside class="brand">
+      <div class="brand__inner">
+        <span class="logo">CSC426 <span>Portal</span></span>
+        <h2>Welcome back</h2>
+        <p>Sign in to reach your dashboard and continue your work.</p>
+      </div>
+      <span class="brand__foot">CSC426 Practical Project</span>
+    </aside>
+
+    <main class="panel">
+      <div class="form-wrap">
+        <h1>Sign in</h1>
+        <p class="lead">Enter your details below to continue.</p>
+
+        <div id="alert" class="alert" role="alert" aria-live="polite" hidden></div>
+
+        <div class="field">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" autocomplete="username" placeholder="e.g. admin" required />
+          <small class="error" data-error-for="username"></small>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <div class="password-wrap">
+            <input type="password" id="password" name="password" autocomplete="current-password" placeholder="Enter your password" required />
+            <button type="button" id="togglePassword" class="toggle" aria-label="Show password">Show</button>
+          </div>
+          <small class="error" data-error-for="password"></small>
+        </div>
+
+        <div class="actions">
+          <button type="button" id="loginBtn" class="btn btn--primary">Log in</button>
+          <button type="button" id="resetBtn" class="btn btn--ghost">Reset</button>
+        </div>
+
+        <p class="hint">Demo credentials: <strong>admin</strong> / <strong>password123</strong></p>
+      </div>
+    </main>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
