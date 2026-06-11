@@ -7,7 +7,7 @@ The current submission is the weekly dev exercise, which has two separate tasks:
 1. A desktop calculator built with Python and Tkinter (myCalculator).
 2. A web login authentication app built with HTML, CSS, JavaScript and PHP.
 
-**Live login app:** https://johnson.is-best.net
+**Live login app:** https://ola.totalh.net/
 
 Each task sits in its own folder and has its own README with more detail.
 
